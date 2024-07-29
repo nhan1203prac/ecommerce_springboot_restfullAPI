@@ -1,0 +1,91 @@
+#wrapper{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(https://cdn.pixabay.com/photo/2021/07/01/07/02/laptop-6378451_1280.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* h2,h3{
+    color:#fff;
+} */
+#login,#signup{
+    width:400px;
+    background: rgba(0,0,0,0.2);
+  text-align: center;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Căn giữa theo chiều dọc */
+  align-items: center; 
+  border-radius: 10px;
+
+}
+/* h2{
+    margin-bottom: 20px;
+    font-size: 35px;
+} */
+#login h3{
+    margin-bottom: 20px;
+    font-size: 22px;
+    color:#fff;
+}
+#usernames, #passwords,#emails{
+    height: 40px;
+   width: 350px;
+    
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    
+}
+.username, .password,.email{
+    line-height: 40px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color:#fff;
+    padding:0 10px;
+   
+    flex:1
+
+}
+#usernames .fa-user, .fa-lock{
+    margin-right: 10px;
+    color:#fff
+}
+::placeholder{
+    color:#fff;
+    text-align: start;
+}
+#passwords{
+    margin-top: 30px;
+}
+#emails{
+    margin-top: 30px;
+}
+#help{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+/* span{
+    color:#fff;
+    font-size: 14px;
+}
+a{
+    font-size: 14px;
+    color:greenyellow;
+}
+button{
+    margin-top: 30px;
+    padding: 10px 20px;
+} */

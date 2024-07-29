@@ -1,0 +1,112 @@
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: rgba(128, 128, 128, 0.203) !important; 
+    color:black;
+}
+
+.logout-btn{
+    margin:0 auto;
+    display: block !important;
+}
+
+
+.badge {
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 9px;
+}
+
+
+.notifications-container {
+    padding: 20px;
+    max-height: 400px;
+    overflow-y: scroll;
+    border: 1px solid gray;
+    background-color: white;
+    width: 300px;
+    z-index: 99;
+    top: calc(100% + 10px); /* Hiển thị phía dưới icon */
+    left: 0;
+}
+.notifications-container p {
+    transition: background-color 0.3s;
+}
+
+.notifications-container p:hover {
+    background-color: rgba(128, 128, 128, 0.537);
+    cursor: pointer;
+}
+.notification-read {
+    background-color: rgba(128, 128, 128, 0.203);
+}
+
+.notification-unread {
+    background-color: lightcoral;
+}
+/* .fas[data-count] {
+    position: relative;
+} */
+
+
+.fa-shopping-cart {
+    position: relative;
+    font-size: 20px;
+    margin-right: 5px; 
+}
+
+/* Đối với biểu tượng Notification */
+.fa-bell {
+    font-size: 1.4em;
+    margin-right: 5px; 
+}
+.fas[data-count]:after {
+    position: absolute;
+    right: 10em;
+    top: 0.1em;
+    content: attr(data-count);
+    padding: 0.5em;
+    border-radius: 10em;
+    line-height: 0.9em;
+    color: white;
+    background-color: red;
+    text-align: center;
+    min-width: 2em;
+    font: bold 0.4em sans-serif;
+}
+.fa-home{
+    font-size: 25px;
+}
+#basic-navbar-nav{
+    display: flex;
+    align-items: center;
+}
+.nav-link{
+    color:black;
+}
+.notifications-container span {
+    margin-right: 10px; 
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding: 5px 10px; 
+    
+  }
+  
+  .notifications-container span:hover {
+    background-color: #cccccc; 
+  }
+  .active{
+    border-radius: 5px; 
+    background-color: #dddddd; 
+  }
+  #cartcount {
+    position: absolute;
+    font-size: 10px;
+    background-color: red;
+    color: white;
+    padding: 2px 4px;
+    vertical-align: top;
+    margin-left: -8px;
+    border-radius: 50%;
+    margin-top: -5px;
+    right:315px;
+}
